@@ -1,0 +1,168 @@
+<!-- copyrighted content owned by Android Arena (www.androidarena.co.in)-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:orientation="vertical"
+        >
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="#2fc8d0"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            >
+
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register new Account"
+                android:textColor="#2582C5"
+                android:layout_marginLeft="25dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center_horizontal|center_vertical"
+                 />
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+
+            >
+
+            <EditText android:layout_width="200sp"
+                android:layout_height="40dp"
+                android:hint="First Name"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:inputType="text"
+                android:id="@+id/fname"/>
+            <EditText android:layout_width="200sp"
+                android:layout_height="40dp"
+                android:hint="Last Name"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:inputType="text"
+                android:id="@+id/lname"/>
+            <EditText android:layout_width="200sp"
+                android:layout_height="40dp"
+                android:hint="Email"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:inputType="textEmailAddress"
+                android:id="@+id/email"/>
+            <EditText android:layout_width="200sp"
+                android:layout_height="40dp"
+                android:hint="Password"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:inputType="textWebPassword"
+                android:id="@+id/pass"/>
+            <EditText android:layout_width="200sp"
+                android:layout_height="40dp"
+                android:hint="Mobilenumber"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:inputType="number"
+                android:id="@+id/mobile"/>
+            <Spinner android:layout_width="200sp"
+                android:layout_height="40dp"
+                android:background="#f3f3f3"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:id="@+id/gender"
+                android:entries="@array/gender"
+                />
+            <EditText android:layout_width="200sp"
+                android:layout_height="40dp"
+                android:hint="DOB"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:id="@+id/dob"
+                />
+            <Spinner android:layout_width="200sp"
+                android:layout_height="40dp"
+                android:hint="Nationality"
+                android:background="#f3f3f3"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:id="@+id/nationality"
+                android:entries="@array/nationality"/>
+            <Spinner android:layout_width="200sp"
+                android:layout_height="40dp"
+                android:hint="type:individual/company"
+                android:background="#f3f3f3"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:id="@+id/type"
+                android:entries="@array/type"/>
+            <EditText android:layout_width="200sp"
+                android:layout_height="40dp"
+                android:hint="Img"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:id="@+id/img"/>
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="200dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="Submit"
+                android:textColor="#fff"
+                android:textSize="13dp"
+                android:background="#13b586"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

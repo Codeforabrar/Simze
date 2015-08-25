@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Simze</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+    <string-array name="nationality">
+        <item>India</item>
+        <item>America</item>
+        <item>france</item>
+        <item>Australia</item>
+        <item>Nepal</item>
+        <item>Pakistan</item>
+        <item>Canada</item>
+        <item>Germany</item>
+        <item>Afganistan</item>
+        <item>SouthAfrica</item>
+
+    </string-array>
+    <string-array name="type">
+        <item>Individual</item>
+        <item>Company</item>
+
+    </string-array>
+</resources>
